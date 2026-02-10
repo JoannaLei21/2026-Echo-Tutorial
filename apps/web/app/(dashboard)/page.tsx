@@ -18,7 +18,6 @@ export default function Page() {
         <h1 className="text-2xl font-bold">Hello World</h1>
         <Button size="sm" onClick={()=> addUser()}>ADD</Button>
         <p>{add(2,2)}</p>
-        <div className="max-w-sm w-full mx-auto">{JSON.stringify(users)}</div>
       </div>
     </div>
   )
